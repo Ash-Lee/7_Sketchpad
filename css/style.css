@@ -1,0 +1,176 @@
+/* 7_Sketchpad */
+/* CSS Styles */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+#page {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/*========================================*/
+  /* .main-header */
+/*========================================*/
+.main-header {
+    height: 110px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+.header-canvas {
+    width: 630px;
+    height: 100px;
+    margin: 10px auto 0;
+    background-color: #F0F0F0;
+    font-size: 0;
+}
+
+.spacer {
+    height: 100px;
+    width: 15px;
+    display: inline-block;
+}
+
+.header-grid {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.header-grid-box {
+    float: left;
+    background-color: #F0F0F0;
+    transition: background-color 0.4s;
+}
+
+
+/*========================================*/
+  /* .main-section */
+/*========================================*/
+.main-section {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0;   /* remove white space between inline-block divs */
+}
+
+.left-menu, .canvas, .right-menu {
+    height: 645px;
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+/* .canvas */
+.canvas {
+    width: 60%;
+    background-color: #FFF;
+}
+
+.grid {
+    height: 630px;
+    width: 630px;
+    margin: 0 auto;
+    background-color: #FFF; /* Sets colour of erase trail */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.grid-box {
+    float: left;
+    background-color: #F0F0F0;
+}
+
+
+/* .left-menu and .right-menu */
+.left-menu, .right-menu {
+    width: 20%;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    border: 1px solid #605B56;
+    color: #605B56;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.new-grid:hover, .random:hover, .fade:hover, .erase:hover {
+    color: #FFF;
+    transition: color 0.4s;
+}
+
+
+/* .left-menu */
+.new-grid {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.new-grid:hover {
+    background-color: #BDDCF7;
+}
+
+input[name="boxes"] {
+    text-align: center;
+    color: #605B56;
+}
+
+
+/* .right-menu */
+.colours {
+    height: 35px;
+    width: 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.colours:hover {
+    opacity: 0.4;
+}
+
+.grey {background-color: #605B56;}
+.blue {background-color: #4281A4;}
+.green {background-color: #96CEB4;}
+.red {background-color: #FF6F69;}
+.orange {background-color: #FFBA49;}
+.lilac {background-color: #E0B5C8;}
+
+.random, .fade {
+    height: 35px;
+    width: 142px;
+    border-radius: 5px;
+}
+
+.fade:hover {
+    background-color: #605B56;
+    color: #F0F0F0;
+}
+
+.erase {
+    height: 40px;
+    width: 80px;
+    border-radius: 25%;
+}
+
+.erase:hover {
+    background-color: #DE6570;
+}
