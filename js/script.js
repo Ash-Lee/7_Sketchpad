@@ -84,9 +84,9 @@ $(document).ready( function() {
         } else if (boxes < 10) {
             alert('Minimum grid size is 10');
             boxes = 10;
-        } else if (boxes > 60) {
-            alert('Maximum grid size is 60');
-            boxes = 60;
+        } else if (boxes > 40) {
+            alert('Maximum grid size is 40');
+            boxes = 40;
         }
 
         $('.grid').empty();
