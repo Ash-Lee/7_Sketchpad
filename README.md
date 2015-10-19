@@ -5,9 +5,9 @@ Flex your JavaScript and jQuery muscles by creating a browser based version of s
 
 ##### Skills Developed
 <ul>
-	<li>Moved on from website imitation - created an interactive sketchpad from beginning to end according to my own design specification</li>
-	<li>Use of JavaScript and the jQuery library to solve a wide range of project specific problems</li>
-	<li>Use of the JavaScript console within the developer tools for debugging purposes</li>
+	<li>Moved on from website imitation - Created an interactive sketchpad from beginning to end according to my own design specification.</li>
+	<li>Use of JavaScript and the jQuery library to solve a wide range of project specific problems.</li>
+	<li>Use of the JavaScript console and developer tools for debugging purposes.</li>
 </ul>
 
 ##### Live Preview
